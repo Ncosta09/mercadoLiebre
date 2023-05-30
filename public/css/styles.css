@@ -73,3 +73,31 @@ main{
     text-align: center;
     background-color: rgba(3, 144, 252, 0.5);
 }
+
+footer{
+    background-color: #e1e2e3;
+}
+
+.info-container{
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.info-container h2{
+    margin: 0;    
+    padding-top: 15px;
+    text-align: center;
+}
+
+.info-container p{
+    padding: 5px;
+    margin: 0;
+}
+
+.copyright{
+    text-align: left;
+    font-size: 10px;
+    margin: 0;
+    padding: 10px;
+    bottom: 0;
+}
