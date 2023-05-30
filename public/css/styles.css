@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-header{
+    background-color: #eac926;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.header-text{
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.hamburger-button{
+    background-color: #03264c;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-header-bottom-bar ul{
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.main-header-bottom-bar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    font-size: 18px;
+}
