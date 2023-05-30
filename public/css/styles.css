@@ -5,6 +5,10 @@
 .main-header{
     background-color: #eac926;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo{
@@ -40,4 +44,32 @@
     color: #222222;
     display: inline-block;
     font-size: 18px;
+}
+
+main{
+    margin-top: 361px;
+}
+
+.titles{
+    text-align: left;
+    font-weight: lighter;
+    margin: 0 0 0 10px;
+}
+
+.product{
+    padding: 0 15px;
+    border: solid 1px black;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.product img{
+    width: 100%;
+    border-bottom: solid 0.5px #000000;
+    margin-bottom: 5px;
+}
+
+.product h2{
+    text-align: center;
+    background-color: rgba(3, 144, 252, 0.5);
 }
