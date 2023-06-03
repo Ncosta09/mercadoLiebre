@@ -10,21 +10,30 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/b29db1d018.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="main-header">
         <div class="main-header-top-bar">
             <img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo">
-            <form action="" method="post" class="search-bar">
-                <input type="search" name="" placeholder="Buscar productos, marcas">
-                <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
-            </form>
+
             <h2 class="header-text">
                 <i class="fa-solid fa-hand-holding-dollar"></i>
                 Comprá en cuotas y sin tarjeta de crédito
             </h2>
         </div>
+
+        <div class="form-bar">
+
+            <form action="" method="post" class="search-bar">
+                <input type="search" name="" placeholder="Buscar productos, marcas">
+                <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            </form>
+        </div>
+
         <nav class="main-header-bottom-bar">
             <ul class="left-navbar">
                 <li><a href="#">Ofertas</a></li>
@@ -49,14 +58,16 @@
             <h2 class="titles">Basado en tu ultima visita</h2>
             <article class="product">
                 <img src="/images/img-macbook-pro-2019.jpg" alt="">
-                <p>Precio</p>
-                <p>Descuento</p>
+                <i class="fa-solid fa-truck truck"></i>
+                <p class="product-price">Precio</p>
+                <p class="product-discount">Descuento</p>
                 <h2>Macbook Pro 2019</h2>
             </article>
             <article class="product">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="">
-                <p>Precio</p>
-                <p>Descuento</p>
+                <i class="fa-solid fa-truck truck"></i>
+                <p class="product-price">Precio</p>
+                <p class="product-discount">Descuento</p>
                 <h2>Cafetera moulinex</h2>
             </article>
         </div>
@@ -65,14 +76,16 @@
             <h2 class="titles">Ofertas</h2>
             <article class="product">
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="">
-                <p>Precio</p>
-                <p>Descuento</p>
+                <i class="fa-solid fa-truck truck"></i>
+                <p class="product-price">$6.500</p>
+                <p class="product-discount">40% OFF</p>
                 <h2>Samsung galaxy S10</h2>
             </article>
             <article class="product">
                 <img src="/images/img-tv-samsung-smart.jpg" alt="">
-                <p>Precio</p>
-                <p>Descuento</p>
+                <i class="fa-solid fa-truck truck"></i>
+                <p class="product-price">Precio</p>
+                <p class="product-discount">Descuento</p>
                 <h2>Samsung smart TV</h2>
             </article>
         </div>
@@ -80,14 +93,17 @@
 
     <footer>
         <div class="info-container">
+            <i class="fa-solid fa-credit-card icons"></i>
             <h2>Pagá con tarjeta o efectivo</h2>
             <p>Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
         </div>
         <div class="info-container">
+            <i class="fa-solid fa-gift icons"></i>
             <h2>Envío gratis desde $ 2.500</h2>
             <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
         </div>
         <div class="info-container">
+            <i class="fa-solid fa-user-shield icons"></i>
             <h2>Seguridad, de principio a fin</h2>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
         </div>
