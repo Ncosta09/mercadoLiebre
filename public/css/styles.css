@@ -164,6 +164,62 @@ footer{
     bottom: 0;
 }
 
+.register-form{
+    padding: 20px 15px;
+    max-width: 400px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-form{
+    margin-bottom: 15px;
+}
+
+.control-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.control-input{
+    width: 100%;
+    padding: 8px;
+}
+
+.control-check{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.register-file{
+    width: 100%;
+}
+
+.register-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form{
+    padding: 20px 15px;
+    max-width: 400px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-button button{
+    width: 100%;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+}
+
 @media (min-width: 361px){
 
 }
@@ -227,4 +283,18 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
+
+    .register-form{
+        margin: auto;
+        background-color: #ebebeb;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-footer{
+        margin-top: 10%;
+    }
+
 }

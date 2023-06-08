@@ -43,7 +43,7 @@
 
             <ul class="right-navbar">
                 <li><a href="/register">Crea tu cuenta <i class="fa-solid fa-id-card"></i> </a></li>
-                <li><a href="/login">Ingresa <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                <li><a href="#">Ingresa <i class="fa-solid fa-right-to-bracket"></i> </a></li>
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i> </a></li>
             </ul>
         </nav>
@@ -53,64 +53,23 @@
     </header>
 
     <main>
-        <form action="" method="post" class="register-form">
+        <form action="" method="post" class="login-form">
             <div class="control-form">
-                <label for="">Nombre</label>
-                <input type="text" class="control-input">
-            </div>
-            <div class="control-form">
-                <label for="">Apellido</label>
-                <input type="text" class="control-input">
+                <input type="text" class="control-input" placeholder="Nombre de usuario">
             </div>
             <div class="control-form">
-                <label for="">Usuario</label>
-                <input type="text" class="control-input">
-            </div>
-            <div class="control-form">
-                <label for="">Fecha de nacimiento</label>
-                <input type="date" class="control-input">
-            </div>
-            <div class="control-form">
-                <label for="">Domicilio</label>
-                <input type="text" class="control-input">
-            </div>
-            <div class="control-form">
-                <label for="">Perfil de usuario</label>
-                <select name="" id="" >
-                    <option value="">Comprador</option>
-                    <option value="">Vendedor</option>
-                </select>
-            </div>
-            <div class="control-form control-check">
-                <label for="">Categorias de interes</label>
-                <label>Electro <input type="checkbox" name="" value=""></label> 
-                <label>Moda <input type="checkbox" name="" value=""></label> 
-                <label>Hogar <input type="checkbox" name="" value=""></label> 
-                <label>Juguetería <input type="checkbox" name="" value=""></label> 
-                <label>Vida sana <input type="checkbox" name="" value=""></label> 
-            </div>
-            <div class="control-form">
-                <label for="">Foto de perfil</label>
-                <input class="register-file" type="file">
-            </div>
-            <div class="control-form">
-                <label for="">Contrasena</label>
-                <input type="password" class="control-input">
-            </div>
-            <div class="control-form"> 
-                <label for="">Confirmar contrasena</label>
-                <input type="password" class="control-input">
+                <input type="password" class="control-input" placeholder="Contrasena">
             </div>
             
-            <div class="register-buttons">
-                <button  type="reset">Borrar</button>
+            <div class="login-button">
                 <button type="submit">Enviar</button>
             </div>
         </form>
 
     </main>
 
-    <footer>
+    <footer class="login-footer">
+
         <div class="footer-info">
             <div class="info-container">
                 <i class="fa-solid fa-credit-card icons"></i>
